@@ -40,15 +40,21 @@ h3 {
 	font-weight: 200;
 }
 
-p, .email {
+p,
+.email {
 	display: block;
 }
 
 p {
-   line-height: 1.5em;
+	line-height: 1.5em;
 	margin: 0 auto;
 	max-width: 600px;
 	margin-bottom: 40px;
+}
+
+span {
+	color: blueviolet;
+	font-weight: 700;
 }
 
 img {
@@ -65,12 +71,12 @@ img:hover {
 }
 
 .email {
-   background: blueviolet;
-   color: white;
-   font-size: 24px;
-   font-weight: 200;
-   max-width: fit-content;
-   padding: 15px 30px;
-   border-radius: 6px;
-   margin-top: 30px;
+	background: blueviolet;
+	color: white;
+	font-size: 24px;
+	font-weight: 200;
+	max-width: fit-content;
+	padding: 15px 30px;
+	border-radius: 6px;
+	margin-top: 30px;
 }
