@@ -53,8 +53,9 @@ p {
 }
 
 span {
-	color: blueviolet;
+	background: #ccbbf7;
 	font-weight: 700;
+	padding: 1px 4px;
 }
 
 img {
