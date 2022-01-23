@@ -35,12 +35,20 @@ a:hover {
 	font-size: large;
 }
 
+h3 {
+	font-size: 28px;
+	font-weight: 200;
+}
+
+p, .email {
+	display: block;
+}
+
 p {
-   display: block;
    line-height: 1.5em;
-   margin: 0 auto;
-   max-width: 600px;
-   margin-bottom: 40px;
+	margin: 0 auto;
+	max-width: 600px;
+	margin-bottom: 40px;
 }
 
 img {
@@ -54,4 +62,15 @@ img {
 img:hover {
 	background: blueviolet;
 	border: 1px solid white;
+}
+
+.email {
+   background: blueviolet;
+   color: white;
+   font-size: 24px;
+   font-weight: 200;
+   max-width: fit-content;
+   padding: 15px 30px;
+   border-radius: 6px;
+   margin-top: 30px;
 }
