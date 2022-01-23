@@ -35,6 +35,14 @@ a:hover {
 	font-size: large;
 }
 
+p {
+   display: block;
+   line-height: 1.5em;
+   margin: 0 auto;
+   max-width: 600px;
+   margin-bottom: 40px;
+}
+
 img {
 	display: block;
 	border: 1px solid blueviolet;
